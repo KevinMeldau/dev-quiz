@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Dev Quiz - Kevin Meldau</title>
+    <meta name="description" content="dev Quiz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link media="all" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="screen" href="css/style.css" />
+    <script defer src="js/submit_resource.js"></script>
+  </head>
+  <body>
+    <div class="container height-100">
+      <div class="content-container">
+        <div class="title">
+          <h1>Do you feel like helping out?</h1>
+          <p>Why not suggest a resource?</p>
+        </div>
+        <div class="form">
+          <form action="javascript:void(0);" method="POST" onsubmit="app.Add()">
+            <input type="text" id="add-todo" placeholder="Suggested Resource" />
+            <input
+              type="submit"
+              value="Add"
+              class="btn btn-create-question margin-sides-sm"
+            />
+          </form>
+          <p id="counter"></p>
+          <table>
+            <tr class="to-do"></tr>
+            <tbody id="tasks"></tbody>
+          </table>
+        </div>
+        <div id="edit-box" class="edit-box" role="aria-hidden">
+          <form action="javascript:void(0)" method="POST" id="save-edit">
+            <input type="text" id="edit-todo" />
+            <input type="submit" value="save" class="btn btn-primary" />
+            <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+          </form>
+        </div>
+        <a href="./index.html"><i class="fa fa-long-arrow-left margin-sides-sm"></i>Back home</a>
+      </div>
+    </div>
+  </body>
+</html>

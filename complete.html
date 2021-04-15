@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Dev Quiz - Kevin Meldau</title>
+    <meta name="description" content="dev Quiz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" media="screen" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container-complete">
+        <img src="images/trophy_img.png" alt="Dev Quiz trophy background image" />
+      </div>
+      <div class="content-container">
+        <h1>This assesment is finished!</h1>
+        <p class="text-special text-bold">Your final score was <span id="results">1</span> out of <span id="numberOfQuestions"></span> questions</p>
+        <h3>Are you up for another challenge?</h3>
+        <h2>Choose a category and start our assessment</h2>
+        <div class="btn-container">
+          <a href="question_html.html"
+            ><button class="btn btn-primary text-bold">HTML</button></a
+          >
+          <a href="question_css.html"
+            ><button class="btn btn-primary text-bold">CSS</button></a
+          >
+          <a href="question_javascript.html"
+            ><button class="btn btn-primary text-bold">JavaScript</button></a
+          >
+        </div>
+        <footer>
+          <div class="copyright">
+            Designed & developed by
+            <span class="margin-sides-sm"
+              ><a href="http://www.kevinmeldau.com/" target="_blank"
+                >Kevin Meldau</a
+              ></span
+            >
+            for
+            <a href="http://generalassemb.ly/"
+              ><img src="images/ga_logo.png" alt="General Assembly logo"
+            /></a>
+          </div>
+          <div class="submit">
+            <a class="margin-sides-sm" href="submit_resource.html">Submit a resource</a>
+          </div>
+        </footer>
+    </div>
+  </body>
+  <script>
+    document.getElementById("results").innerHTML = sessionStorage.getItem("score_points");
+    document.getElementById("numberOfQuestions").innerHTML = sessionStorage.getItem("index");
+  </script>
+</html>
