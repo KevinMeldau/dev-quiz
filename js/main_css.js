@@ -9,9 +9,12 @@ const questionsCss = [
       { text: "Cascading Style Sheets", correct: true },
       { text: "Colorful Style Sheets", correct: false },
     ],
-    incorrect_explanation: "HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages.",
+    incorrect_explanation:
+      "HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages.",
     resources: [
-      { text: '<a href="https://www.w3.org/standards/webdesign/htmlcss.html" target="_blank">W3 Schools</a>' },
+      {
+        text: '<a href="https://www.w3.org/standards/webdesign/htmlcss.html" target="_blank">W3 Schools</a>',
+      },
     ],
   },
   // Question 2
@@ -27,9 +30,12 @@ const questionsCss = [
       },
       { text: '&lt;link src="mystyle.css">', correct: false },
     ],
-    incorrect_explanation: "The &lt;link> tag defines the relationship between the current document and an external resource. The &lt;link> tag is most often used to link to external style sheets.",
+    incorrect_explanation:
+      "The &lt;link> tag defines the relationship between the current document and an external resource. The &lt;link> tag is most often used to link to external style sheets.",
     resources: [
-      { text: '<a href="https://www.w3schools.com/tags/tag_link.asp" target="_blank">W3 Schools</a>' },
+      {
+        text: '<a href="https://www.w3schools.com/tags/tag_link.asp" target="_blank">W3 Schools</a>',
+      },
     ],
   },
   // Question 3
@@ -42,9 +48,12 @@ const questionsCss = [
       { text: "In the &lt;head> section  ", correct: true },
       { text: '&lt;link src="mystyle.css">', correct: false },
     ],
-    incorrect_explanation: "Each HTML page must include a reference to the external style sheet file inside the &lt;link> element, inside the head section.",
+    incorrect_explanation:
+      "Each HTML page must include a reference to the external style sheet file inside the &lt;link> element, inside the head section.",
     resources: [
-      { text: '<a href="https://www.w3schools.com/css/css_howto.asp" target="_blank">W3 Schools</a>' },
+      {
+        text: '<a href="https://www.w3schools.com/css/css_howto.asp" target="_blank">W3 Schools</a>',
+      },
     ],
   },
   // Question 4
@@ -56,9 +65,12 @@ const questionsCss = [
       { text: "&lt;css>", correct: false },
       { text: '&lt;src="mystyle.css">', correct: false },
     ],
-    incorrect_explanation: "An internal CSS is used to define a style for a single HTML page. An internal CSS is defined in the &lt;head> section of an HTML page, within a &lt;style> element.",
+    incorrect_explanation:
+      "An internal CSS is used to define a style for a single HTML page. An internal CSS is defined in the &lt;head> section of an HTML page, within a &lt;style> element.",
     resources: [
-      { text: '<a href="https://www.w3schools.com/html/html_css.asp" target="_blank">W3 Schools</a>' },
+      {
+        text: '<a href="https://www.w3schools.com/html/html_css.asp" target="_blank">W3 Schools</a>',
+      },
     ],
   },
   // Question 5
@@ -70,43 +82,46 @@ const questionsCss = [
       { text: "styles", correct: false },
       { text: "font", correct: false },
     ],
-    incorrect_explanation: "The style attribute specifies an inline style for an element. The style attribute will override any style set globally, e.g. styles specified in the &lt;style> tag or in an external style sheet.",
+    incorrect_explanation:
+      "The style attribute specifies an inline style for an element. The style attribute will override any style set globally, e.g. styles specified in the &lt;style> tag or in an external style sheet.",
     resources: [
-      { text: '<a href="https://www.w3schools.com/tags/ref_standardattributes.asp" target="_blank">W3 Schools</a>' },
+      {
+        text: '<a href="https://www.w3schools.com/tags/ref_standardattributes.asp" target="_blank">W3 Schools</a>',
+      },
     ],
   },
-  // // Question 6
-  // {
-  //   questions: "Which is the correct CSS syntax?",
-  //   answers: [
-  //     { text: "body {color: black;}", correct: true },
-  //     { text: "body:color=black;", correct: false },
-  //     { text: "{body;color:black;}", correct: false },
-  //     { text: "{body:color=black;}", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  // Question 6
+  {
+    questions: "Which is the correct CSS syntax?",
+    answers: [
+      { text: "body {color: black;}", correct: true },
+      { text: "body:color=black;", correct: false },
+      { text: "{body;color:black;}", correct: false },
+      { text: "{body:color=black;}", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 7
-  // {
-  //   questions: "How do you insert a comment in a CSS file?",
-  //   answers: [
-  //     { text: "// this is a comment", correct: false },
-  //     { text: "' this is a comment", correct: false },
-  //     { text: "/* this is a comment */", correct: true },
-  //     { text: "// this is a comment //", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do you insert a comment in a CSS file?",
+    answers: [
+      { text: "// this is a comment", correct: false },
+      { text: "' this is a comment", correct: false },
+      { text: "/* this is a comment */", correct: true },
+      { text: "// this is a comment //", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 8
   // {
   //   questions: "Which property is used to change the background color?",
@@ -859,16 +874,16 @@ let questionIndex;
 function buildQuizCss() {
   // Pick a random question
   if (sessionStorage.getItem("isComplete") == "true") {
-    sessionStorage.setItem("index",0);
-    sessionStorage.setItem("score_points",0);
-    sessionStorage.setItem("isComplete","false");
+    sessionStorage.setItem("index", 0);
+    sessionStorage.setItem("score_points", 0);
+    sessionStorage.setItem("isComplete", "false");
   }
 
   let currentQuestionIndex = parseInt(sessionStorage.getItem("index")) || 0;
   questionIndex = currentQuestionIndex;
 
   if (currentQuestionIndex >= questionsCss.length) {
-    sessionStorage.setItem("isComplete","true");
+    sessionStorage.setItem("isComplete", "true");
     window.location.assign("./complete.html");
   }
 
@@ -935,10 +950,11 @@ function renderQuestion(question) {
       // create icon and set into answer button html and add icon class
       icon.setAttribute("class", "fa fa-times-circle");
       // Removes the hide class if user gets the answer incorrect
-      document.getElementById("incorrect_explanation").innerHTML = question.incorrect_explanation;
+      document.getElementById("incorrect_explanation").innerHTML =
+        question.incorrect_explanation;
       let listOfResources = document.createElement("ul");
       listOfResources.style.padding = "0px";
-      for(let i=0;i<question.resources.length;i++){
+      for (let i = 0; i < question.resources.length; i++) {
         let li = document.createElement("li");
         li.innerHTML = question.resources[i].text;
         listOfResources.appendChild(li);
