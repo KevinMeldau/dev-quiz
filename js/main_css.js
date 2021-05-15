@@ -139,19 +139,19 @@ const questionsCss = [
     ],
   },
   // // Question 9
-  // {
-  //   questions: "The only way to define a color is by Hexadecimal code?",
-  //   answers: [
-  //     { text: "True", correct: false },
-  //     { text: "False", correct: true },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "The only way to define a color is by Hexadecimal code?",
+    answers: [
+      { text: "True", correct: false },
+      { text: "False", correct: true },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 10
   // {
   //   questions: "There are two units of measurements – em and rem?",
