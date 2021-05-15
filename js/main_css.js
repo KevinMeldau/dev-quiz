@@ -123,21 +123,21 @@ const questionsCss = [
     ],
   },
   // // Question 8
-  // {
-  //   questions: "Which property is used to change the background color?",
-  //   answers: [
-  //     { text: "color", correct: false },
-  //     { text: "bgcolor", correct: false },
-  //     { text: "background-color", correct: true },
-  //     { text: "background", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which property is used to change the background color?",
+    answers: [
+      { text: "color", correct: false },
+      { text: "bgcolor", correct: false },
+      { text: "background-color", correct: true },
+      { text: "background", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 9
   // {
   //   questions: "The only way to define a color is by Hexadecimal code?",
