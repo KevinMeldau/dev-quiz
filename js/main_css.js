@@ -183,21 +183,21 @@ const questionsCss = [
     ],
   },
   // // Question 12
-  // {
-  //   questions: "What property creates space between the border and content?",
-  //   answers: [
-  //     { text: "Margin", correct: false },
-  //     { text: "Spacing", correct: false },
-  //     { text: "Padding", correct: true },
-  //     { text: "Border", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What property creates space between the border and content?",
+    answers: [
+      { text: "Margin", correct: false },
+      { text: "Spacing", correct: false },
+      { text: "Padding", correct: true },
+      { text: "Border", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 13
   // {
   //   questions: "In what way can you NOT reference CSS?",
