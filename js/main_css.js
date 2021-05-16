@@ -199,21 +199,21 @@ const questionsCss = [
     ],
   },
   // // Question 13
-  // {
-  //   questions: "In what way can you NOT reference CSS?",
-  //   answers: [
-  //     { text: "Inline Styling", correct: false },
-  //     { text: "Internal Style Sheet", correct: false },
-  //     { text: "External Style Sheet", correct: false },
-  //     { text: "All three are correct", correct: true },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "In what way can you NOT reference CSS?",
+    answers: [
+      { text: "Inline Styling", correct: false },
+      { text: "Internal Style Sheet", correct: false },
+      { text: "External Style Sheet", correct: false },
+      { text: "All three are correct", correct: true },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 9
   // {
   //   questions: "Which property is used to change the text color of an element?",
