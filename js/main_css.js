@@ -329,22 +329,22 @@ const questionsCss = [
     ],
   },
   // // Question 16
-  // {
-  //   questions:
-  //     "Which property is used to change the left margin of an element?",
-  //   answers: [
-  //     { text: "padding-left", correct: false },
-  //     { text: "indent", correct: false },
-  //     { text: "margin-left", correct: true },
-  //     { text: "margin-indent-left", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions:
+      "Which property is used to change the left margin of an element?",
+    answers: [
+      { text: "padding-left", correct: false },
+      { text: "indent", correct: false },
+      { text: "margin-left", correct: true },
+      { text: "margin-indent-left", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 17
   // {
   //   questions: "The padding property allows negative values",
