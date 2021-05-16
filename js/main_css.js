@@ -248,21 +248,21 @@ const questionsCss = [
   },
   // // Question 11
   // {
-  //   questions:
-  //     "What is the correct CSS syntax for making all &lt;p> tags bold?",
-  //   answers: [
-  //     { text: '&lt;p style="text-size:bold;">', correct: false },
-  //     { text: "p {font-weight:bold;}", correct: true },
-  //     { text: '&lt;p style="font-size:bold;">', correct: false },
-  //     { text: "p {text-size:bold;}", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+    questions:
+      "What is the correct CSS syntax for making all &lt;p> tags bold?",
+    answers: [
+      { text: '&lt;p style="text-size:bold;">', correct: false },
+      { text: "p {font-weight:bold;}", correct: true },
+      { text: '&lt;p style="font-size:bold;">', correct: false },
+      { text: "p {text-size:bold;}", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 12
   // {
   //   questions: "How do you display hyperlinks without an underline?",
