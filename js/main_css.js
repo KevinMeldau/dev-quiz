@@ -297,21 +297,21 @@ const questionsCss = [
     ],
   },
   // // Question 14
-  // {
-  //   questions: "Which property is used to change the font of an element?",
-  //   answers: [
-  //     { text: "font-weight", correct: false },
-  //     { text: "font-family", correct: true },
-  //     { text: "font-style", correct: false },
-  //     { text: "font-style-family", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which property is used to change the font of an element?",
+    answers: [
+      { text: "font-weight", correct: false },
+      { text: "font-family", correct: true },
+      { text: "font-style", correct: false },
+      { text: "font-style-family", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 15
   // {
   //   questions: "How do you make the text bold?",
