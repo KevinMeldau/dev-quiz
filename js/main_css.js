@@ -264,21 +264,21 @@ const questionsCss = [
     ],
   },
   // // Question 12
-  // {
-  //   questions: "How do you display hyperlinks without an underline?",
-  //   answers: [
-  //     { text: "a {decoration:no-underline;}", correct: false },
-  //     { text: "a {text-decoration:none;}", correct: true },
-  //     { text: "a {text-decoration:no-underline;}", correct: false },
-  //     { text: "a {underline:none;}", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do you display hyperlinks without an underline?",
+    answers: [
+      { text: "a {decoration:no-underline;}", correct: false },
+      { text: "a {text-decoration:none;}", correct: true },
+      { text: "a {text-decoration:no-underline;}", correct: false },
+      { text: "a {underline:none;}", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 13
   // {
   //   questions:
