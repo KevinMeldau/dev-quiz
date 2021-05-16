@@ -280,22 +280,22 @@ const questionsCss = [
     ],
   },
   // // Question 13
-  // {
-  //   questions:
-  //     "How do you make each word in a text start with a capital letter?",
-  //   answers: [
-  //     { text: "text-transform:capitalize", correct: true },
-  //     { text: "text-style:capitalize", correct: false },
-  //     { text: "You can't do that with only CSS", correct: false },
-  //     { text: "transform:capitalize", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions:
+      "How do you make each word in a text start with a capital letter?",
+    answers: [
+      { text: "text-transform:capitalize", correct: true },
+      { text: "text-style:capitalize", correct: false },
+      { text: "You can't do that with only CSS", correct: false },
+      { text: "transform:capitalize", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 14
   // {
   //   questions: "Which property is used to change the font of an element?",
