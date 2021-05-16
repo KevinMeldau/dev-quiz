@@ -215,21 +215,21 @@ const questionsCss = [
     ],
   },
   // // Question 9
-  // {
-  //   questions: "Which property is used to change the text color of an element?",
-  //   answers: [
-  //     { text: "Color", correct: true },
-  //     { text: "fgcolor", correct: false },
-  //     { text: "text-color", correct: false },
-  //     { text: "all-text", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which property is used to change the text color of an element?",
+    answers: [
+      { text: "Color", correct: true },
+      { text: "fgcolor", correct: false },
+      { text: "text-color", correct: false },
+      { text: "all-text", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 10
   // {
   //   questions: "Which CSS property controls the text size?",
