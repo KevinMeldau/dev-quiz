@@ -231,21 +231,21 @@ const questionsCss = [
     ],
   },
   // // Question 10
-  // {
-  //   questions: "Which CSS property controls the text size?",
-  //   answers: [
-  //     { text: "Text-size", correct: false },
-  //     { text: "Font-size", correct: true },
-  //     { text: "Text-style", correct: false },
-  //     { text: "Font-style", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which CSS property controls the text size?",
+    answers: [
+      { text: "Text-size", correct: false },
+      { text: "Font-size", correct: true },
+      { text: "Text-style", correct: false },
+      { text: "Font-style", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 11
   // {
   //   questions:
