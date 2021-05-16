@@ -247,7 +247,7 @@ const questionsCss = [
     ],
   },
   // // Question 11
-  // {
+  {
     questions:
       "What is the correct CSS syntax for making all &lt;p> tags bold?",
     answers: [
