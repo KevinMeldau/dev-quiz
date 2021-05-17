@@ -456,21 +456,21 @@ const questionsCss = [
     ],
   },
   // // Question 24
-  // {
-  //   questions: "Which of the following defines a measurement in screen pixels?",
-  //   answers: [
-  //     { text: "px", correct: true },
-  //     { text: "vh", correct: false },
-  //     { text: "em", correct: false },
-  //     { text: "rem", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which of the following defines a measurement in screen pixels?",
+    answers: [
+      { text: "px", correct: true },
+      { text: "vh", correct: false },
+      { text: "em", correct: false },
+      { text: "rem", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 25
   // {
   //   questions:
