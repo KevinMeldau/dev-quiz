@@ -346,19 +346,19 @@ const questionsCss = [
     ],
   },
   // // Question 17
-  // {
-  //   questions: "The padding property allows negative values",
-  //   answers: [
-  //     { text: "True", correct: false },
-  //     { text: "False", correct: true },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "The padding property allows negative values",
+    answers: [
+      { text: "True", correct: false },
+      { text: "False", correct: true },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 18
   // {
   //   questions: "How do you make a list that lists its items with squares?",
