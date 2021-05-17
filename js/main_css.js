@@ -472,22 +472,22 @@ const questionsCss = [
     ],
   },
   // // Question 25
-  // {
-  //   questions:
-  //     "Which of the following properties specifies the width of a border?",
-  //   answers: [
-  //     { text: ":border-color", correct: false },
-  //     { text: ":border-style", correct: false },
-  //     { text: ":border-width", correct: true },
-  //     { text: ":border-bottom-color", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions:
+      "Which of the following properties specifies the width of a border?",
+    answers: [
+      { text: ":border-color", correct: false },
+      { text: ":border-style", correct: false },
+      { text: ":border-width", correct: true },
+      { text: ":border-bottom-color", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 26
   // {
   //   questions:
