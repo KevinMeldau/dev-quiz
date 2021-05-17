@@ -440,21 +440,21 @@ const questionsCss = [
     ],
   },
   // // Question 23
-  // {
-  //   questions: "What is the default value of the position property?",
-  //   answers: [
-  //     { text: "absolute", correct: false },
-  //     { text: "static", correct: true },
-  //     { text: "fixed", correct: false },
-  //     { text: "relative", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What is the default value of the position property?",
+    answers: [
+      { text: "absolute", correct: false },
+      { text: "static", correct: true },
+      { text: "fixed", correct: false },
+      { text: "relative", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 24
   // {
   //   questions: "Which of the following defines a measurement in screen pixels?",
