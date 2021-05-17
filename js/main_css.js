@@ -489,22 +489,22 @@ const questionsCss = [
     ],
   },
   // // Question 26
-  // {
-  //   questions:
-  //     "Which of the following property changes the color of top border?",
-  //   answers: [
-  //     { text: ":border-top-color", correct: true },
-  //     { text: ":border", correct: false },
-  //     { text: ":border-above", correct: false },
-  //     { text: ":border-above-color", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions:
+      "Which of the following property changes the color of top border?",
+    answers: [
+      { text: ":border-top-color", correct: true },
+      { text: ":border", correct: false },
+      { text: ":border-above", correct: false },
+      { text: ":border-above-color", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 27
   // {
   //   questions: "How do we control the appearance of the marker of a list?",
