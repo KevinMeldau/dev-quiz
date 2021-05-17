@@ -408,21 +408,21 @@ const questionsCss = [
     ],
   },
   // // Question 21
-  // {
-  //   questions: "How do you select all p elements inside a div element?",
-  //   answers: [
-  //     { text: "div + p", correct: false },
-  //     { text: "div.p", correct: false },
-  //     { text: "div p", correct: true },
-  //     { text: "p + div", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do you select all p elements inside a div element?",
+    answers: [
+      { text: "div + p", correct: false },
+      { text: "div.p", correct: false },
+      { text: "div p", correct: true },
+      { text: "p + div", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 22
   // {
   //   questions: "How do you group selectors?",
