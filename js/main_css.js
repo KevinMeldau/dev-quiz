@@ -506,21 +506,21 @@ const questionsCss = [
     ],
   },
   // // Question 27
-  // {
-  //   questions: "How do we control the appearance of the marker of a list?",
-  //   answers: [
-  //     { text: "list-style-type", correct: true },
-  //     { text: "list-style-position", correct: false },
-  //     { text: "list-style-image", correct: false },
-  //     { text: "list-style", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do we control the appearance of the marker of a list?",
+    answers: [
+      { text: "list-style-type", correct: true },
+      { text: "list-style-position", correct: false },
+      { text: "list-style-image", correct: false },
+      { text: "list-style", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 28
   // {
   //   questions: "Which property gives you control the marker of a list?",
