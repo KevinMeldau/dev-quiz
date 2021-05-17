@@ -424,21 +424,21 @@ const questionsCss = [
     ],
   },
   // // Question 22
-  // {
-  //   questions: "How do you group selectors?",
-  //   answers: [
-  //     { text: "Separate each selector with a comma", correct: true },
-  //     { text: "Separate each selector with a space", correct: false },
-  //     { text: "Separate each selector with a plus sign", correct: false },
-  //     { text: "There is no need to group selectors", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do you group selectors?",
+    answers: [
+      { text: "Separate each selector with a comma", correct: true },
+      { text: "Separate each selector with a space", correct: false },
+      { text: "Separate each selector with a plus sign", correct: false },
+      { text: "There is no need to group selectors", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 23
   // {
   //   questions: "What is the default value of the position property?",
