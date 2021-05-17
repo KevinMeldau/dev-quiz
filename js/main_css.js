@@ -376,21 +376,21 @@ const questionsCss = [
     ],
   },
   // // Question 19
-  // {
-  //   questions: "How do you select an element with id 'demo'?",
-  //   answers: [
-  //     { text: "*demo", correct: false },
-  //     { text: "#demo", correct: true },
-  //     { text: "demo", correct: false },
-  //     { text: ".demo", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do you select an element with id 'demo'?",
+    answers: [
+      { text: "*demo", correct: false },
+      { text: "#demo", correct: true },
+      { text: "demo", correct: false },
+      { text: ".demo", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 20
   // {
   //   questions: "How do you select elements with class name 'test'?",
