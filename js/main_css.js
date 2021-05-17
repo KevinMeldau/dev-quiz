@@ -360,21 +360,21 @@ const questionsCss = [
     ],
   },
   // // Question 18
-  // {
-  //   questions: "How do you make a list that lists its items with squares?",
-  //   answers: [
-  //     { text: "list: square;", correct: false },
-  //     { text: "list-type: square;", correct: false },
-  //     { text: "list-style-type: square;", correct: true },
-  //     { text: "list-method: square;", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do you make a list that lists its items with squares?",
+    answers: [
+      { text: "list: square;", correct: false },
+      { text: "list-type: square;", correct: false },
+      { text: "list-style-type: square;", correct: true },
+      { text: "list-method: square;", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 19
   // {
   //   questions: "How do you select an element with id 'demo'?",
