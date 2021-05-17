@@ -392,21 +392,21 @@ const questionsCss = [
     ],
   },
   // // Question 20
-  // {
-  //   questions: "How do you select elements with class name 'test'?",
-  //   answers: [
-  //     { text: "test", correct: false },
-  //     { text: "*test", correct: false },
-  //     { text: ".test", correct: true },
-  //     { text: "#test", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do you select elements with class name 'test'?",
+    answers: [
+      { text: "test", correct: false },
+      { text: "*test", correct: false },
+      { text: ".test", correct: true },
+      { text: "#test", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 21
   // {
   //   questions: "How do you select all p elements inside a div element?",
