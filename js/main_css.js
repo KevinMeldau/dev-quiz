@@ -598,19 +598,19 @@ const questionsCss = [
     ],
   },
   // // Question 33
-  // {
-  //   questions: "Pseudo-classes have a high specificity than an ID?",
-  //   answers: [
-  //     { text: "True", correct: false },
-  //     { text: "False", correct: true },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Pseudo-classes have a high specificity than an ID?",
+    answers: [
+      { text: "True", correct: false },
+      { text: "False", correct: true },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 34
   // {
   //   questions:
