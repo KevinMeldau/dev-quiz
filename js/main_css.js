@@ -627,21 +627,21 @@ const questionsCss = [
     ],
   },
   // // Question 35
-  // {
-  //   questions: "What property will give an element rounded corners?",
-  //   answers: [
-  //     { text: "border-round", correct: false },
-  //     { text: "corner-round", correct: false },
-  //     { text: "border-radius", correct: true },
-  //     { text: "radius-corner", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What property will give an element rounded corners?",
+    answers: [
+      { text: "border-round", correct: false },
+      { text: "corner-round", correct: false },
+      { text: "border-radius", correct: true },
+      { text: "radius-corner", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 36
   // {
   //   questions: "An element can have more than one background image",
