@@ -702,21 +702,21 @@ const questionsCss = [
     ],
   },
   // // Question 40
-  // {
-  //   questions: "How do we give an element a box shadow of 10px?",
-  //   answers: [
-  //     { text: "box-shadow: 10px 10px;", correct: true },
-  //     { text: "shadow: 10px;", correct: false },
-  //     { text: "shadow-box: 10px;", correct: false },
-  //     { text: "shadow-box: 10px 10px 10px 10px;", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do we give an element a box shadow of 10px?",
+    answers: [
+      { text: "box-shadow: 10px 10px;", correct: true },
+      { text: "shadow: 10px;", correct: false },
+      { text: "shadow-box: 10px;", correct: false },
+      { text: "shadow-box: 10px 10px 10px 10px;", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 41
   // {
   //   questions: "CSS does allow multi-column layouts?",
