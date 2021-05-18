@@ -643,19 +643,19 @@ const questionsCss = [
     ],
   },
   // // Question 36
-  // {
-  //   questions: "An element can have more than one background image",
-  //   answers: [
-  //     { text: "True", correct: true },
-  //     { text: "False", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "An element can have more than one background image",
+    answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 37
   // {
   //   questions: 'The keyword "cover" is used to scale background images?',
