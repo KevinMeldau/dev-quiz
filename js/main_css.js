@@ -671,20 +671,20 @@ const questionsCss = [
     ],
   },
   // // Question 38
-  // {
-  //   questions:
-  //     "linear-gradient(red, yellow); gives you a gradient of 45%, from red to yellow?",
-  //   answers: [
-  //     { text: "True", correct: false },
-  //     { text: "False", correct: true },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions:
+      "linear-gradient(red, yellow); gives you a gradient of 45%, from red to yellow?",
+    answers: [
+      { text: "True", correct: false },
+      { text: "False", correct: true },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 39
   // {
   //   questions: "How do we give an element a box shadow of 10px?",
