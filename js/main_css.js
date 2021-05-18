@@ -554,21 +554,21 @@ const questionsCss = [
     ],
   },
   // // Question 30
-  // {
-  //   questions: "How many times can the same class be used on a page?",
-  //   answers: [
-  //     { text: "A maximum of 5", correct: false },
-  //     { text: "As many times as you like", correct: true },
-  //     { text: "A maximum of 3", correct: false },
-  //     { text: "A maximum of 1", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How many times can the same class be used on a page?",
+    answers: [
+      { text: "A maximum of 5", correct: false },
+      { text: "As many times as you like", correct: true },
+      { text: "A maximum of 3", correct: false },
+      { text: "A maximum of 1", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 31
   // {
   //   questions: "A class has a high specificity than an ID?",
