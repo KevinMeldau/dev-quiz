@@ -760,21 +760,21 @@ const questionsCss = [
     ],
   },
   // // Question 44
-  // {
-  //   questions: "How do we setup a media query for a screen that is 600px?",
-  //   answers: [
-  //     { text: "@media screen and (max-width: 600px)", correct: true },
-  //     { text: "@screen media and (max-width: 600px)", correct: false },
-  //     { text: "@(max-width: 600px)", correct: false },
-  //     { text: "screen: max-width: 600px", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do we setup a media query for a screen that is 600px?",
+    answers: [
+      { text: "@media screen and (max-width: 600px)", correct: true },
+      { text: "@screen media and (max-width: 600px)", correct: false },
+      { text: "@(max-width: 600px)", correct: false },
+      { text: "screen: max-width: 600px", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 45
   // {
   //   questions: "Flexbox is a way to work with layouts and positioning",
