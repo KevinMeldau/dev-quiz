@@ -851,21 +851,21 @@ const questionsCss = [
     ],
   },
   // // Question 50
-  // {
-  //   questions: "How do we select all select links on mouse over?",
-  //   answers: [
-  //     { text: "hover", correct: true },
-  //     { text: "a:hover", correct: true },
-  //     { text: "link:hover", correct: false },
-  //     { text: "hover:link", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do we select all select links on mouse over?",
+    answers: [
+      { text: "hover", correct: true },
+      { text: "a:hover", correct: true },
+      { text: "link:hover", correct: false },
+      { text: "hover:link", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
 ];
 // **--------------------------------------------** //
 let answerValue;
