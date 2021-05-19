@@ -820,20 +820,20 @@ const questionsCss = [
     ],
   },
   // // Question 48
-  // {
-  //   questions:
-  //     'To start using css grid all you need to do is add "display: grid" to the container element?',
-  //   answers: [
-  //     { text: "True", correct: true },
-  //     { text: "False", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions:
+      'To start using css grid all you need to do is add "display: grid" to the container element?',
+    answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 49
   // {
   //   questions: "How do we select all elements with a target attribute?",
