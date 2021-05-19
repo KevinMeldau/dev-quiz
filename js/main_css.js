@@ -732,19 +732,19 @@ const questionsCss = [
     ],
   },
   // // Question 42
-  // {
-  //   questions: 'Making a page "responsive" cannot be done in CSS?',
-  //   answers: [
-  //     { text: "True", correct: false },
-  //     { text: "False", correct: true },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: 'Making a page "responsive" cannot be done in CSS?',
+    answers: [
+      { text: "True", correct: false },
+      { text: "False", correct: true },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 43
   // {
   //   questions: "input[type=text] will only select text fields?",
