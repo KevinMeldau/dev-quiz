@@ -790,20 +790,20 @@ const questionsCss = [
     ],
   },
   // // Question 46
-  // {
-  //   questions:
-  //     'To start using flexbox all you need to do is add "display: flex" to the container element?',
-  //   answers: [
-  //     { text: "True", correct: true },
-  //     { text: "False", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions:
+      'To start using flexbox all you need to do is add "display: flex" to the container element?',
+    answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 47
   // {
   //   questions:
