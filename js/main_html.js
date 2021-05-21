@@ -120,23 +120,23 @@ const questionsHtml = [
     ],
   },
   // // Question 8
-  // {
-  //   questions: "What is the correct format for creating a hyperlink?",
-  //   answers: [
-  //     { text: "&lt;a>http://www.company.com&lt;/a>", correct: false },
-  //     {
-  //       text: '&lt;a href="http://www.company.com">Company Name&lt;/a>',
-  //       correct: true,
-  //     },
-  //     {
-  //       text: '&lt;a url="http://www.company.com">Company Name&lt;/a>',
-  //       correct: false,
-  //     },
-  //     {
-  //       text: '&lt;a link="http://www.company.com">Company Name&lt;/a>',
-  //       correct: false,
-  //     },
-  //   ],
+  {
+    questions: "What is the correct format for creating a hyperlink?",
+    answers: [
+      { text: "&lt;a>http://www.company.com&lt;/a>", correct: false },
+      {
+        text: '&lt;a href="http://www.company.com">Company Name&lt;/a>',
+        correct: true,
+      },
+      {
+        text: '&lt;a url="http://www.company.com">Company Name&lt;/a>',
+        correct: false,
+      },
+      {
+        text: '&lt;a link="http://www.company.com">Company Name&lt;/a>',
+        correct: false,
+      },
+    ],
   //   incorrect_explanation: "This is why it was wrong",
   //   resources: [
   //     { text: "W3 Schools - w3schools.com" },
