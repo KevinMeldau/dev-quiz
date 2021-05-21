@@ -137,29 +137,29 @@ const questionsHtml = [
         correct: false,
       },
     ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 9
-  // {
-  //   questions: "Which character is used to indicate an end tag?",
-  //   answers: [
-  //     { text: "&lt;", correct: false },
-  //     { text: "&lt;end>", correct: false },
-  //     { text: "/", correct: true },
-  //     { text: "*", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which character is used to indicate an end tag?",
+    answers: [
+      { text: "&lt;", correct: false },
+      { text: "&lt;end>", correct: false },
+      { text: "/", correct: true },
+      { text: "*", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 10
   // {
   //   questions: "How can you open a link in a new tab / browser window?",
