@@ -296,21 +296,21 @@ const questionsHtml = [
     ],
   },
   // // Question 18
-  // {
-  //   questions: "What is the correct tag for creating a text area?",
-  //   answers: [
-  //     { text: "&lt;textarea>", correct: true },
-  //     { text: "&lt;select>", correct: false },
-  //     { text: '&lt;input type="textbox">', correct: false },
-  //     { text: '&lt;input type="textarea">', correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What is the correct tag for creating a text area?",
+    answers: [
+      { text: "&lt;textarea>", correct: true },
+      { text: "&lt;select>", correct: false },
+      { text: '&lt;input type="textbox">', correct: false },
+      { text: '&lt;input type="textarea">', correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 19
   // {
   //   questions: "What is the correct tag for inserting an image?",
