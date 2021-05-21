@@ -232,21 +232,21 @@ const questionsHtml = [
     ],
   },
   // Question 14
-  // {
-  //   questions: "What tag is used to create a bulleted list?",
-  //   answers: [
-  //     { text: "&lt;ul>", correct: true },
-  //     { text: "&lt;ol>", correct: false },
-  //     { text: "&lt;list>", correct: false },
-  //     { text: "&lt;dl>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What tag is used to create a bulleted list?",
+    answers: [
+      { text: "&lt;ul>", correct: true },
+      { text: "&lt;ol>", correct: false },
+      { text: "&lt;list>", correct: false },
+      { text: "&lt;dl>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 15
   // {
   //   questions: "What is the correct tag for making a checkbox?",
