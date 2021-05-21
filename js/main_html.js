@@ -264,21 +264,21 @@ const questionsHtml = [
     ],
   },
   // // Question 16
-  // {
-  //   questions: "What is the correct tag for creating a text input field?",
-  //   answers: [
-  //     { text: "&lt;check>", correct: false },
-  //     { text: '&lt;textinput type="text">', correct: false },
-  //     { text: '&lt;text type="textfield">', correct: false },
-  //     { text: '&lt;input type="text">', correct: true },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What is the correct tag for creating a text input field?",
+    answers: [
+      { text: "&lt;check>", correct: false },
+      { text: '&lt;textinput type="text">', correct: false },
+      { text: '&lt;text type="textfield">', correct: false },
+      { text: '&lt;input type="text">', correct: true },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 17
   // {
   //   questions: "What is the correct tag for making a drop-down list?",
