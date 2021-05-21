@@ -161,30 +161,30 @@ const questionsHtml = [
     ],
   },
   // // Question 10
-  // {
-  //   questions: "How can you open a link in a new tab / browser window?",
-  //   answers: [
-  //     { text: '&lt;a href="http://www.company.com" new>', correct: false },
-  //     {
-  //       text: '&lt;a href="http://www.company.com" target="_blank">',
-  //       correct: true,
-  //     },
-  //     {
-  //       text: '&lt;a href="http://www.company.com" target="new">',
-  //       correct: false,
-  //     },
-  //     {
-  //       text: '&lt;a href="http://www.company.com" new="_blank">',
-  //       correct: false,
-  //     },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How can you open a link in a new tab / browser window?",
+    answers: [
+      { text: '&lt;a href="http://www.company.com" new>', correct: false },
+      {
+        text: '&lt;a href="http://www.company.com" target="_blank">',
+        correct: true,
+      },
+      {
+        text: '&lt;a href="http://www.company.com" target="new">',
+        correct: false,
+      },
+      {
+        text: '&lt;a href="http://www.company.com" new="_blank">',
+        correct: false,
+      },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 11
   // {
   //   questions: "Which of these elements are all &lt;table> elements?",
