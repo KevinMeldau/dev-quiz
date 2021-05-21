@@ -186,21 +186,21 @@ const questionsHtml = [
     ],
   },
   // // Question 11
-  // {
-  //   questions: "Which of these elements are all &lt;table> elements?",
-  //   answers: [
-  //     { text: "&lt;table>&lt;tr>&lt;td>", correct: true },
-  //     { text: "&lt;thead>&lt;body>&lt;tr>", correct: false },
-  //     { text: "&lt;table>&lt;tr>&lt;tt>", correct: false },
-  //     { text: "&lt;table>&lt;head>&lt;tfoot>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which of these elements are all &lt;table> elements?",
+    answers: [
+      { text: "&lt;table>&lt;tr>&lt;td>", correct: true },
+      { text: "&lt;thead>&lt;body>&lt;tr>", correct: false },
+      { text: "&lt;table>&lt;tr>&lt;tt>", correct: false },
+      { text: "&lt;table>&lt;head>&lt;tfoot>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 12
   // {
   //   questions: "Inline elements are displayed without starting a new line",
