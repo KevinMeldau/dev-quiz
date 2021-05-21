@@ -88,21 +88,21 @@ const questionsHtml = [
     ],
   }
   // // Question 6
-  // {
-  //   questions: "Choose the correct HTML element to define important text",
-  //   answers: [
-  //     { text: "&lt;i>", correct: false },
-  //     { text: "&lt;strong>", correct: true },
-  //     { text: "&lt;important>", correct: false },
-  //     { text: "&lt;b>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Choose the correct HTML element to define important text",
+    answers: [
+      { text: "&lt;i>", correct: false },
+      { text: "&lt;strong>", correct: true },
+      { text: "&lt;important>", correct: false },
+      { text: "&lt;b>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 7
   // {
   //   questions: "Choose the correct HTML element to define emphasized text",
