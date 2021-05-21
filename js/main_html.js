@@ -280,21 +280,21 @@ const questionsHtml = [
     ],
   },
   // // Question 17
-  // {
-  //   questions: "What is the correct tag for making a drop-down list?",
-  //   answers: [
-  //     { text: '&lt;input type="list">', correct: false },
-  //     { text: "&lt;select>", correct: true },
-  //     { text: '&lt;input type="dropdown">', correct: false },
-  //     { text: "&lt;list>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What is the correct tag for making a drop-down list?",
+    answers: [
+      { text: '&lt;input type="list">', correct: false },
+      { text: "&lt;select>", correct: true },
+      { text: '&lt;input type="dropdown">', correct: false },
+      { text: "&lt;list>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 18
   // {
   //   questions: "What is the correct tag for creating a text area?",
