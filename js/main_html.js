@@ -248,21 +248,21 @@ const questionsHtml = [
     ],
   },
   // // Question 15
-  // {
-  //   questions: "What is the correct tag for making a checkbox?",
-  //   answers: [
-  //     { text: "&lt;check>", correct: false },
-  //     { text: '&lt;input type="checkbox">', correct: true },
-  //     { text: "&lt;checkbox>", correct: false },
-  //     { text: '&lt;input type="check">', correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What is the correct tag for making a checkbox?",
+    answers: [
+      { text: "&lt;check>", correct: false },
+      { text: '&lt;input type="checkbox">', correct: true },
+      { text: "&lt;checkbox>", correct: false },
+      { text: '&lt;input type="check">', correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 16
   // {
   //   questions: "What is the correct tag for creating a text input field?",
