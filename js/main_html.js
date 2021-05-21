@@ -104,21 +104,21 @@ const questionsHtml = [
     ],
   },
   // // Question 7
-  // {
-  //   questions: "Choose the correct HTML element to define emphasized text",
-  //   answers: [
-  //     { text: "&lt;i>", correct: false },
-  //     { text: "&lt;italic>", correct: false },
-  //     { text: "&lt;em>", correct: true },
-  //     { text: "&lt;b>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Choose the correct HTML element to define emphasized text",
+    answers: [
+      { text: "&lt;i>", correct: false },
+      { text: "&lt;italic>", correct: false },
+      { text: "&lt;em>", correct: true },
+      { text: "&lt;b>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 8
   // {
   //   questions: "What is the correct format for creating a hyperlink?",
