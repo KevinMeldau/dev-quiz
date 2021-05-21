@@ -202,19 +202,19 @@ const questionsHtml = [
     ],
   },
   // // Question 12
-  // {
-  //   questions: "Inline elements are displayed without starting a new line",
-  //   answers: [
-  //     { text: "True", correct: true },
-  //     { text: "False", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Inline elements are displayed without starting a new line",
+    answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 13
   // {
   //   questions: "What tag is used to make a numbered list?",
