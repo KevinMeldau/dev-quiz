@@ -216,21 +216,21 @@ const questionsHtml = [
     ],
   },
   // // Question 13
-  // {
-  //   questions: "What tag is used to make a numbered list?",
-  //   answers: [
-  //     { text: "&lt;ol>", correct: true },
-  //     { text: "&lt;list>", correct: false },
-  //     { text: "&lt;ul>", correct: false },
-  //     { text: "&lt;dl>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What tag is used to make a numbered list?",
+    answers: [
+      { text: "&lt;ol>", correct: true },
+      { text: "&lt;list>", correct: false },
+      { text: "&lt;ul>", correct: false },
+      { text: "&lt;dl>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // Question 14
   // {
   //   questions: "What tag is used to create a bulleted list?",
