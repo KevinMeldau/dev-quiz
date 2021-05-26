@@ -437,21 +437,21 @@ const questionsHtml = [
     ],
   },
   // // Question 27
-  // {
-  //   questions: "Which element is used to specify a footer for a document?",
-  //   answers: [
-  //     { text: "&lt;footer>", correct: true },
-  //     { text: "&lt;section>", correct: false },
-  //     { text: "&lt;bottom>", correct: false },
-  //     { text: "&lt;bottom_head>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which element is used to specify a footer for a document?",
+    answers: [
+      { text: "&lt;footer>", correct: true },
+      { text: "&lt;section>", correct: false },
+      { text: "&lt;bottom>", correct: false },
+      { text: "&lt;bottom_head>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 28
   // {
   //   questions: "You can embed SVG elements directly into an HTML page",
