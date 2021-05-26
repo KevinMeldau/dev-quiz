@@ -328,24 +328,24 @@ const questionsHtml = [
     ],
   },
   // // Question 20
-  // {
-  //   questions: "What is the correct tag for inserting a background image?",
-  //   answers: [
-  //     { text: '&lt;background img="background.gif">', correct: false },
-  //     {
-  //       text: '&lt;body style="background-image: url("background.gif")">',
-  //       correct: true,
-  //     },
-  //     { text: '&lt;body bg="background.gif">', correct: false },
-  //     { text: '&lt;body img="background.gif">', correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What is the correct tag for inserting a background image?",
+    answers: [
+      { text: '&lt;background img="background.gif">', correct: false },
+      {
+        text: '&lt;body style="background-image: url("background.gif")">',
+        correct: true,
+      },
+      { text: '&lt;body bg="background.gif">', correct: false },
+      { text: '&lt;body img="background.gif">', correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 21
   // {
   //   questions: "An &lt;iframe> is used to display a web page within a web page",
