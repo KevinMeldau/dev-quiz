@@ -499,28 +499,28 @@ const questionsHtml = [
     ],
   },
   // // Question 31
-  // {
-  //   questions: 'The HTML global attribute, "contenteditable" is used to:',
-  //   answers: [
-  //     { text: "Specifies a context menu for an element", correct: false },
-  //     {
-  //       text: "Returns the first found occurrence of content inside a string",
-  //       correct: false,
-  //     },
-  //     {
-  //       text:
-  //         "Specify whether the content of an element should be editable or not",
-  //       correct: true,
-  //     },
-  //     { text: "Update content from the server", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: 'The HTML global attribute, "contenteditable" is used to:',
+    answers: [
+      { text: "Specifies a context menu for an element", correct: false },
+      {
+        text: "Returns the first found occurrence of content inside a string",
+        correct: false,
+      },
+      {
+        text:
+          "Specify whether the content of an element should be editable or not",
+        correct: true,
+      },
+      { text: "Update content from the server", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 32
   // {
   //   questions: "In HTML, onblur and onfocus are:",
