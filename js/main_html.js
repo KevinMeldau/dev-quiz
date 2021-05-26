@@ -483,21 +483,21 @@ const questionsHtml = [
     ],
   },
   // // Question 30
-  // {
-  //   questions: "What is the correct HTML element for embedding audio files?",
-  //   answers: [
-  //     { text: "&lt;video>", correct: true },
-  //     { text: "&lt;sound>", correct: false },
-  //     { text: "&lt;mp3>", correct: false },
-  //     { text: "&lt;music>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What is the correct HTML element for embedding audio files?",
+    answers: [
+      { text: "&lt;video>", correct: true },
+      { text: "&lt;sound>", correct: false },
+      { text: "&lt;mp3>", correct: false },
+      { text: "&lt;music>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 31
   // {
   //   questions: 'The HTML global attribute, "contenteditable" is used to:',
