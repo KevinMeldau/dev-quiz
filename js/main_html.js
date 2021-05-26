@@ -312,21 +312,21 @@ const questionsHtml = [
     ],
   },
   // // Question 19
-  // {
-  //   questions: "What is the correct tag for inserting an image?",
-  //   answers: [
-  //     { text: '&lt;image src="image.gif" alt="MyImage">', correct: false },
-  //     { text: '&lt;img alt="MyImage">image.gif&lt;/img>', correct: false },
-  //     { text: '&lt;img href="image.gif" alt="MyImage">', correct: false },
-  //     { text: '&lt;img src="image.gif" alt="MyImage">', correct: true },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What is the correct tag for inserting an image?",
+    answers: [
+      { text: '&lt;image src="image.gif" alt="MyImage">', correct: false },
+      { text: '&lt;img alt="MyImage">image.gif&lt;/img>', correct: false },
+      { text: '&lt;img href="image.gif" alt="MyImage">', correct: false },
+      { text: '&lt;img src="image.gif" alt="MyImage">', correct: true },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 20
   // {
   //   questions: "What is the correct tag for inserting a background image?",
