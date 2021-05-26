@@ -347,19 +347,19 @@ const questionsHtml = [
     ],
   },
   // // Question 21
-  // {
-  //   questions: "An &lt;iframe> is used to display a web page within a web page",
-  //   answers: [
-  //     { text: "True", correct: true },
-  //     { text: "False", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "An &lt;iframe> is used to display a web page within a web page",
+    answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 22
   // {
   //   questions: "HTML comments start with &lt;!-- and end with -->",
