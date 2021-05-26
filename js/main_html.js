@@ -389,21 +389,21 @@ const questionsHtml = [
     ],
   },
   // // Question 24
-  // {
-  //   questions: "Which element defines the title of a document?",
-  //   answers: [
-  //     { text: "&lt;head>", correct: false },
-  //     { text: "&lt;title>", correct: true },
-  //     { text: "&lt;meta>", correct: false },
-  //     { text: "&lt;style>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which element defines the title of a document?",
+    answers: [
+      { text: "&lt;head>", correct: false },
+      { text: "&lt;title>", correct: true },
+      { text: "&lt;meta>", correct: false },
+      { text: "&lt;style>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 25
   // {
   //   questions: "Which attribute specifies an alternate text for an image?",
