@@ -405,21 +405,21 @@ const questionsHtml = [
     ],
   },
   // // Question 25
-  // {
-  //   questions: "Which attribute specifies an alternate text for an image?",
-  //   answers: [
-  //     { text: "long-desc", correct: false },
-  //     { text: "alt", correct: true },
-  //     { text: "src", correct: false },
-  //     { text: "title", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which attribute specifies an alternate text for an image?",
+    answers: [
+      { text: "long-desc", correct: false },
+      { text: "alt", correct: true },
+      { text: "src", correct: false },
+      { text: "title", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 26
   // {
   //   questions: "Which doctype is correct for HTML5?",
