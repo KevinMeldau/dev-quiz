@@ -467,21 +467,21 @@ const questionsHtml = [
     ],
   },
   // // Question 29
-  // {
-  //   questions: "What is the correct HTML element for embedding video files?",
-  //   answers: [
-  //     { text: "&lt;media>", correct: false },
-  //     { text: "&lt;video>", correct: true },
-  //     { text: "&lt;movie>", correct: false },
-  //     { text: "&lt;play>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What is the correct HTML element for embedding video files?",
+    answers: [
+      { text: "&lt;media>", correct: false },
+      { text: "&lt;video>", correct: true },
+      { text: "&lt;movie>", correct: false },
+      { text: "&lt;play>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 30
   // {
   //   questions: "What is the correct HTML element for embedding audio files?",
