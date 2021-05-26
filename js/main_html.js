@@ -421,21 +421,21 @@ const questionsHtml = [
     ],
   },
   // // Question 26
-  // {
-  //   questions: "Which doctype is correct for HTML5?",
-  //   answers: [
-  //     { text: "&lt;!DOCTYPE HTML5>", correct: false },
-  //     { text: "&lt;!DOCTYPE http://www.company.com>", correct: false },
-  //     { text: "&lt;!DOCTYPE html>", correct: true },
-  //     { text: "&lt;!DOCTYPE html:true>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which doctype is correct for HTML5?",
+    answers: [
+      { text: "&lt;!DOCTYPE HTML5>", correct: false },
+      { text: "&lt;!DOCTYPE http://www.company.com>", correct: false },
+      { text: "&lt;!DOCTYPE html>", correct: true },
+      { text: "&lt;!DOCTYPE html:true>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 27
   // {
   //   questions: "Which element is used to specify a footer for a document?",
