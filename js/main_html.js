@@ -538,21 +538,21 @@ const questionsHtml = [
     ],
   },
   // // Question 33
-  // {
-  //   questions: "Graphics defined by SVG are in which format?",
-  //   answers: [
-  //     { text: "HTML", correct: false },
-  //     { text: "CSS", correct: false },
-  //     { text: "XML", correct: true },
-  //     { text: "SVG", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Graphics defined by SVG are in which format?",
+    answers: [
+      { text: "HTML", correct: false },
+      { text: "CSS", correct: false },
+      { text: "XML", correct: true },
+      { text: "SVG", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 34
   // {
   //   questions: "The HTML &lt;canvas> element is used to:",
