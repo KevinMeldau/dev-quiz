@@ -657,21 +657,21 @@ const questionsHtml = [
     ],
   },
   // // Question 40
-  // {
-  //   questions: "Which element is used to specify a header for a document?",
-  //   answers: [
-  //     { text: "&lt;head>", correct: false },
-  //     { text: "&lt;header>", correct: true },
-  //     { text: "&lt;section>", correct: false },
-  //     { text: "&lt;top>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which element is used to specify a header for a document?",
+    answers: [
+      { text: "&lt;head>", correct: false },
+      { text: "&lt;header>", correct: true },
+      { text: "&lt;section>", correct: false },
+      { text: "&lt;top>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 41
   // {
   //   questions: "What type of tag is this: &lt;body>",
