@@ -719,21 +719,21 @@ const questionsHtml = [
     ],
   },
   // // Question 44
-  // {
-  //   questions: "What is the correct tag to make text italic",
-  //   answers: [
-  //     { text: "&lt;strong>", correct: false },
-  //     { text: "&lt;br>", correct: false },
-  //     { text: "&lt;em>", correct: false },
-  //     { text: "&lt;i>", correct: true },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What is the correct tag to make text italic",
+    answers: [
+      { text: "&lt;strong>", correct: false },
+      { text: "&lt;br>", correct: false },
+      { text: "&lt;em>", correct: false },
+      { text: "&lt;i>", correct: true },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 45
   // {
   //   questions: "The box model consists of:",
