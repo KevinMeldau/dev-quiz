@@ -570,22 +570,22 @@ const questionsHtml = [
     ],
   },
   // // Question 35
-  // {
-  //   questions:
-  //     "Which attribute is used when an input field MUST be filled out?",
-  //   answers: [
-  //     { text: "Validate", correct: false },
-  //     { text: "Required", correct: true },
-  //     { text: "Form_validate", correct: false },
-  //     { text: "Placeholder", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions:
+      "Which attribute is used when an input field MUST be filled out?",
+    answers: [
+      { text: "Validate", correct: false },
+      { text: "Required", correct: true },
+      { text: "Form_validate", correct: false },
+      { text: "Placeholder", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 36
   // {
   //   questions: "Which input type defines a slider control?",
