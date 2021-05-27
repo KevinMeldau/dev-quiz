@@ -703,21 +703,21 @@ const questionsHtml = [
     ],
   },
   // // Question 43
-  // {
-  //   questions: "Where do all items for the same web site need to be saved?",
-  //   answers: [
-  //     { text: "In the same folder", correct: true },
-  //     { text: "Anywhere, as long as they are linked", correct: false },
-  //     { text: "In different folders", correct: false },
-  //     { text: "All in one file", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Where do all items for the same web site need to be saved?",
+    answers: [
+      { text: "In the same folder", correct: true },
+      { text: "Anywhere, as long as they are linked", correct: false },
+      { text: "In different folders", correct: false },
+      { text: "All in one file", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 44
   // {
   //   questions: "What is the correct tag to make text italic",
