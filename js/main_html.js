@@ -603,21 +603,21 @@ const questionsHtml = [
     ],
   },
   // // Question 37
-  // {
-  //   questions: "How do we display a scalar measurement within a range?",
-  //   answers: [
-  //     { text: "&lt;meter>", correct: true },
-  //     { text: "&lt;measure>", correct: false },
-  //     { text: "&lt;gauge>", correct: false },
-  //     { text: "&lt;range>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do we display a scalar measurement within a range?",
+    answers: [
+      { text: "&lt;meter>", correct: true },
+      { text: "&lt;measure>", correct: false },
+      { text: "&lt;gauge>", correct: false },
+      { text: "&lt;range>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 38
   // {
   //   questions: "Which element defines navigation links?",
