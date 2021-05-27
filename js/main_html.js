@@ -687,21 +687,21 @@ const questionsHtml = [
     ],
   },
   // // Question 42
-  // {
-  //   questions: "What should values always be enclosed in?",
-  //   answers: [
-  //     { text: "Quotation marks", correct: true },
-  //     { text: "Commas", correct: false },
-  //     { text: "Parenthesis", correct: false },
-  //     { text: "Forward slash and back slash", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What should values always be enclosed in?",
+    answers: [
+      { text: "Quotation marks", correct: true },
+      { text: "Commas", correct: false },
+      { text: "Parenthesis", correct: false },
+      { text: "Forward slash and back slash", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 43
   // {
   //   questions: "Where do all items for the same web site need to be saved?",
