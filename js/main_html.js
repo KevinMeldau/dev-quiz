@@ -635,27 +635,27 @@ const questionsHtml = [
     ],
   },
   // // Question 39
-  // {
-  //   questions: "In HTML, what does the &lt;aside> element define?",
-  //   answers: [
-  //     {
-  //       text: "Information sent between computers on the internet",
-  //       correct: false,
-  //     },
-  //     { text: "Content aside from the page content", correct: true },
-  //     {
-  //       text: "A navigation list to be shown at the left side of the page",
-  //       correct: false,
-  //     },
-  //     { text: "Content that is not important", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "In HTML, what does the &lt;aside> element define?",
+    answers: [
+      {
+        text: "Information sent between computers on the internet",
+        correct: false,
+      },
+      { text: "Content aside from the page content", correct: true },
+      {
+        text: "A navigation list to be shown at the left side of the page",
+        correct: false,
+      },
+      { text: "Content that is not important", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 40
   // {
   //   questions: "Which element is used to specify a header for a document?",
