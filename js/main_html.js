@@ -554,21 +554,21 @@ const questionsHtml = [
     ],
   },
   // // Question 34
-  // {
-  //   questions: "The HTML &lt;canvas> element is used to:",
-  //   answers: [
-  //     { text: "Manipulate data in MySQL", correct: false },
-  //     { text: "Create draggable elements", correct: false },
-  //     { text: "Display database elements", correct: false },
-  //     { text: "Draw graphics", correct: true },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "The HTML &lt;canvas> element is used to:",
+    answers: [
+      { text: "Manipulate data in MySQL", correct: false },
+      { text: "Create draggable elements", correct: false },
+      { text: "Display database elements", correct: false },
+      { text: "Draw graphics", correct: true },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 35
   // {
   //   questions:
