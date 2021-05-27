@@ -522,21 +522,21 @@ const questionsHtml = [
     ],
   },
   // // Question 32
-  // {
-  //   questions: "In HTML, onblur and onfocus are:",
-  //   answers: [
-  //     { text: "Event attributes", correct: true },
-  //     { text: "Style attributes", correct: false },
-  //     { text: "Link attributes", correct: false },
-  //     { text: "HTML elements", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "In HTML, onblur and onfocus are:",
+    answers: [
+      { text: "Event attributes", correct: true },
+      { text: "Style attributes", correct: false },
+      { text: "Link attributes", correct: false },
+      { text: "HTML elements", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 33
   // {
   //   questions: "Graphics defined by SVG are in which format?",
