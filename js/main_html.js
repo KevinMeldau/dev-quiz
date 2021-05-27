@@ -619,21 +619,21 @@ const questionsHtml = [
     ],
   },
   // // Question 38
-  // {
-  //   questions: "Which element defines navigation links?",
-  //   answers: [
-  //     { text: "&lt;nav>", correct: true },
-  //     { text: "&lt;navigate>", correct: false },
-  //     { text: "&lt;navigation>", correct: false },
-  //     { text: "&lt;directions>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which element defines navigation links?",
+    answers: [
+      { text: "&lt;nav>", correct: true },
+      { text: "&lt;navigate>", correct: false },
+      { text: "&lt;navigation>", correct: false },
+      { text: "&lt;directions>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 39
   // {
   //   questions: "In HTML, what does the &lt;aside> element define?",
