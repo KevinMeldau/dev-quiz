@@ -673,19 +673,19 @@ const questionsHtml = [
     ],
   },
   // // Question 41
-  // {
-  //   questions: "What type of tag is this: &lt;body>",
-  //   answers: [
-  //     { text: "A opening tag", correct: true },
-  //     { text: "A closing tag", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What type of tag is this: &lt;body>",
+    answers: [
+      { text: "A opening tag", correct: true },
+      { text: "A closing tag", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 42
   // {
   //   questions: "What should values always be enclosed in?",
