@@ -587,21 +587,21 @@ const questionsHtml = [
     ],
   },
   // // Question 36
-  // {
-  //   questions: "Which input type defines a slider control?",
-  //   answers: [
-  //     { text: "controls", correct: false },
-  //     { text: "slider", correct: false },
-  //     { text: "range", correct: true },
-  //     { text: "search", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which input type defines a slider control?",
+    answers: [
+      { text: "controls", correct: false },
+      { text: "slider", correct: false },
+      { text: "range", correct: true },
+      { text: "search", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 37
   // {
   //   questions: "How do we display a scalar measurement within a range?",
