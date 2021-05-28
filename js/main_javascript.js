@@ -46,8 +46,7 @@ const questionsJavascript = [
     questions: "Where is the correct place to insert a JavaScript script?",
     answers: [
       {
-        text:
-          "Both the &lt;head> section and the &lt;body> section are correct",
+        text: "Both the &lt;head> section and the &lt;body> section are correct",
         correct: true,
       },
       { text: "The &lt;body> section", correct: false },
@@ -93,21 +92,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 6
-  // {
-  //   questions: 'How do you write "Hello World" in an alert box?',
-  //   answers: [
-  //     { text: 'alert("Hello World");', correct: true },
-  //     { text: 'msgBox("Hello World");', correct: false },
-  //     { text: 'alertBox("Hello World");', correct: false },
-  //     { text: 'msg("Hello World");', correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: 'How do you write "Hello World" in an alert box?',
+    answers: [
+      { text: 'alert("Hello World");', correct: true },
+      { text: 'msgBox("Hello World");', correct: false },
+      { text: 'alertBox("Hello World");', correct: false },
+      { text: 'msg("Hello World");', correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 7
   // {
   //   questions: "How do you create a function in JavaScript?",
@@ -836,16 +835,16 @@ let questionIndex;
 function buildQuizJavascript() {
   // Pick a random question
   if (sessionStorage.getItem("isComplete") == "true") {
-    sessionStorage.setItem("index",0);
-    sessionStorage.setItem("score_points",0);
-    sessionStorage.setItem("isComplete","false");
+    sessionStorage.setItem("index", 0);
+    sessionStorage.setItem("score_points", 0);
+    sessionStorage.setItem("isComplete", "false");
   }
 
   let currentQuestionIndex = parseInt(sessionStorage.getItem("index")) || 0;
   questionIndex = currentQuestionIndex;
 
   if (currentQuestionIndex >= questionsJavascript.length) {
-    sessionStorage.setItem("isComplete","true");
+    sessionStorage.setItem("isComplete", "true");
     window.location.assign("./complete.html");
   }
 
@@ -912,10 +911,11 @@ function renderQuestion(question) {
       // create icon and set into answer button html and add icon class
       icon.setAttribute("class", "fa fa-times-circle");
       // Removes the hide class if user gets the answer incorrect
-      document.getElementById("incorrect_explanation").innerHTML = question.incorrect_explanation;
+      document.getElementById("incorrect_explanation").innerHTML =
+        question.incorrect_explanation;
       let listOfResources = document.createElement("ul");
       listOfResources.style.padding = "0px";
-      for(let i=0;i<question.resources.length;i++){
+      for (let i = 0; i < question.resources.length; i++) {
         let li = document.createElement("li");
         li.innerHTML = question.resources[i].text;
         listOfResources.appendChild(li);
