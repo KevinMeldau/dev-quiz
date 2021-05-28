@@ -770,21 +770,21 @@ const questionsHtml = [
     ],
   },
   // // Question 47
-  // {
-  //   questions: "The best tag to use for a large block of text is:",
-  //   answers: [
-  //     { text: "&lt;p>", correct: true },
-  //     { text: "&lt;text_block>", correct: false },
-  //     { text: "&lt;paragraph>", correct: false },
-  //     { text: "&lt;text>", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "The best tag to use for a large block of text is:",
+    answers: [
+      { text: "&lt;p>", correct: true },
+      { text: "&lt;text_block>", correct: false },
+      { text: "&lt;paragraph>", correct: false },
+      { text: "&lt;text>", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 48
   // {
   //   questions: "An &lt;h1> tag will always be followed by a &lt;p> tag?",
