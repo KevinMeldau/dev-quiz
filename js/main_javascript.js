@@ -172,21 +172,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 11
-  // {
-  //   questions: "How does a WHILE loop start?",
-  //   answers: [
-  //     { text: "while (i &lt;= 10; i++)", correct: false },
-  //     { text: "while (i &lt;= 10)", correct: true },
-  //     { text: "while i = 1 to 10", correct: false },
-  //     { text: "loop i = 1 to 10", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How does a WHILE loop start?",
+    answers: [
+      { text: "while (i &lt;= 10; i++)", correct: false },
+      { text: "while (i &lt;= 10)", correct: true },
+      { text: "while i = 1 to 10", correct: false },
+      { text: "loop i = 1 to 10", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 12
   // {
   //   questions: "How does a FOR loop start?",
