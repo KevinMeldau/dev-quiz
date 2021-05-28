@@ -751,24 +751,24 @@ const questionsHtml = [
     ],
   },
   // // Question 46
-  // {
-  //   questions: "What are Semantic Elements?",
-  //   answers: [
-  //     {
-  //       text: "An element that describes its meaning to browser and developer",
-  //       correct: true,
-  //     },
-  //     { text: "An element with a lot of pixels", correct: false },
-  //     { text: "An element tha we only use in HTML3 and above", correct: false },
-  //     { text: "Any element that we select to make semantic", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What are Semantic Elements?",
+    answers: [
+      {
+        text: "An element that describes its meaning to browser and developer",
+        correct: true,
+      },
+      { text: "An element with a lot of pixels", correct: false },
+      { text: "An element tha we only use in HTML3 and above", correct: false },
+      { text: "Any element that we select to make semantic", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 47
   // {
   //   questions: "The best tag to use for a large block of text is:",
