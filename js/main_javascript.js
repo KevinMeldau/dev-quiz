@@ -156,21 +156,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 10
-  // {
-  //   questions: 'How do we write an IF statement if "i" is NOT equal to 5?',
-  //   answers: [
-  //     { text: "if i &lt;> 5", correct: false },
-  //     { text: "if i =! 5 then", correct: false },
-  //     { text: "if (i != 5)", correct: true },
-  //     { text: "if (i &lt;> 5)", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: 'How do we write an IF statement if "i" is NOT equal to 5?',
+    answers: [
+      { text: "if i &lt;> 5", correct: false },
+      { text: "if i =! 5 then", correct: false },
+      { text: "if (i != 5)", correct: true },
+      { text: "if (i &lt;> 5)", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 11
   // {
   //   questions: "How does a WHILE loop start?",
