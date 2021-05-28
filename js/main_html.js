@@ -735,21 +735,21 @@ const questionsHtml = [
     ],
   },
   // // Question 45
-  // {
-  //   questions: "The box model consists of:",
-  //   answers: [
-  //     { text: "The content, padding, border, and margin", correct: true },
-  //     { text: "The content and border", correct: false },
-  //     { text: "All the styles", correct: false },
-  //     { text: "Anything we add to it", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "The box model consists of:",
+    answers: [
+      { text: "The content, padding, border, and margin", correct: true },
+      { text: "The content and border", correct: false },
+      { text: "All the styles", correct: false },
+      { text: "Anything we add to it", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 46
   // {
   //   questions: "What are Semantic Elements?",
