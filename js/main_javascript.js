@@ -108,21 +108,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 7
-  // {
-  //   questions: "How do you create a function in JavaScript?",
-  //   answers: [
-  //     { text: "function myFunction()", correct: true },
-  //     { text: "function:myFunction()", correct: false },
-  //     { text: "function = myFunction()", correct: false },
-  //     { text: "function:()", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do you create a function in JavaScript?",
+    answers: [
+      { text: "function myFunction()", correct: true },
+      { text: "function:myFunction()", correct: false },
+      { text: "function = myFunction()", correct: false },
+      { text: "function:()", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 8
   // {
   //   questions: 'How do you call a function named "myFunction"?',
