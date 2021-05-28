@@ -816,20 +816,20 @@ const questionsHtml = [
     ],
   },
   // // Question 50
-  // {
-  //   questions:
-  //     'The &lt;meta charset="UTF-8"> tag is used display a page correctly?',
-  //   answers: [
-  //     { text: "True", correct: true },
-  //     { text: "False", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions:
+      'The &lt;meta charset="UTF-8"> tag is used display a page correctly?',
+    answers: [
+      { text: "True", correct: true },
+      { text: "False", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
 ];
 // **--------------------------------------------** //
 let answerValue;
