@@ -124,21 +124,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 8
-  // {
-  //   questions: 'How do you call a function named "myFunction"?',
-  //   answers: [
-  //     { text: "myFunction()", correct: true },
-  //     { text: "call myFunction()", correct: false },
-  //     { text: "call function myFunction()", correct: false },
-  //     { text: "function myFunction()", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: 'How do you call a function named "myFunction"?',
+    answers: [
+      { text: "myFunction()", correct: true },
+      { text: "call myFunction()", correct: false },
+      { text: "call function myFunction()", correct: false },
+      { text: "function myFunction()", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 9
   // {
   //   questions: "How to write an IF statement in JavaScript?",
