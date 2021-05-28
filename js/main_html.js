@@ -800,21 +800,21 @@ const questionsHtml = [
     ],
   },
   // // Question 49
-  // {
-  //   questions: "What does the &lt;abbr> tag define?",
-  //   answers: [
-  //     { text: "An abbreviation or an acronym", correct: true },
-  //     { text: "Content in the body tag", correct: false },
-  //     { text: "Content we don't want to user to see", correct: false },
-  //     { text: "Content at the bottom of the page", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What does the &lt;abbr> tag define?",
+    answers: [
+      { text: "An abbreviation or an acronym", correct: true },
+      { text: "Content in the body tag", correct: false },
+      { text: "Content we don't want to user to see", correct: false },
+      { text: "Content at the bottom of the page", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 50
   // {
   //   questions:
