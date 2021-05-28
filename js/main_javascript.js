@@ -188,21 +188,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 12
-  // {
-  //   questions: "How does a FOR loop start?",
-  //   answers: [
-  //     { text: "for (i = 0; i &lt;= 5; i++)", correct: true },
-  //     { text: "for (i = 0; i &lt;= 5)", correct: false },
-  //     { text: "for (i &lt;= 5; i++)", correct: false },
-  //     { text: "for i = 1 to 5", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How does a FOR loop start?",
+    answers: [
+      { text: "for (i = 0; i &lt;= 5; i++)", correct: true },
+      { text: "for (i = 0; i &lt;= 5)", correct: false },
+      { text: "for (i &lt;= 5; i++)", correct: false },
+      { text: "for i = 1 to 5", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 13
   // {
   //   questions: "How can you add a comment in a JavaScript?",
