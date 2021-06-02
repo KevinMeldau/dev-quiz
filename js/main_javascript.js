@@ -287,27 +287,27 @@ const questionsJavascript = [
     ],
   },
   // // Question 18
-  // {
-  //   questions: 'What is the syntax to open a new window called "company"?',
-  //   answers: [
-  //     {
-  //       text: 'company = window.new("http://www.company.com");',
-  //       correct: false,
-  //     },
-  //     {
-  //       text: 'company = window.open("http://www.company.com");',
-  //       correct: true,
-  //     },
-  //     { text: 'window.new("http://www.company.com");', correct: false },
-  //     { text: 'company:new("http://www.company.com");', correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: 'What is the syntax to open a new window called "company"?',
+    answers: [
+      {
+        text: 'company = window.new("http://www.company.com");',
+        correct: false,
+      },
+      {
+        text: 'company = window.open("http://www.company.com");',
+        correct: true,
+      },
+      { text: 'window.new("http://www.company.com");', correct: false },
+      { text: 'company:new("http://www.company.com");', correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 19
   // {
   //   questions: "JavaScript is the same as Java",
