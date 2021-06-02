@@ -271,21 +271,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 17
-  // {
-  //   questions: "How do you find the number with the highest value of x and y?",
-  //   answers: [
-  //     { text: "Math.ceil(x, y)", correct: false },
-  //     { text: "Math.max(x, y)", correct: true },
-  //     { text: "top(x, y)", correct: false },
-  //     { text: "ceil(x, y)", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do you find the number with the highest value of x and y?",
+    answers: [
+      { text: "Math.ceil(x, y)", correct: false },
+      { text: "Math.max(x, y)", correct: true },
+      { text: "top(x, y)", correct: false },
+      { text: "ceil(x, y)", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 18
   // {
   //   questions: 'What is the syntax to open a new window called "company"?',
