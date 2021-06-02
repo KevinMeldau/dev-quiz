@@ -204,21 +204,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 13
-  // {
-  //   questions: "How can you add a comment in a JavaScript?",
-  //   answers: [
-  //     { text: "//This is a comment", correct: true },
-  //     { text: "&lt;!--This is a comment-->", correct: false },
-  //     { text: "'This is a comment", correct: false },
-  //     { text: "*This is a comment*", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How can you add a comment in a JavaScript?",
+    answers: [
+      { text: "//This is a comment", correct: true },
+      { text: "&lt;!--This is a comment-->", correct: false },
+      { text: "'This is a comment", correct: false },
+      { text: "*This is a comment*", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 14
   // {
   //   questions: "How to insert a comment that has more than one line?",
