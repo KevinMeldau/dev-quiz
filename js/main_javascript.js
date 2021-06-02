@@ -255,21 +255,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 16
-  // {
-  //   questions: "How do you round the number 7.25, to the nearest integer?",
-  //   answers: [
-  //     { text: "Math.round(7.25)", correct: true },
-  //     { text: "round(7.25)", correct: false },
-  //     { text: "Math.rnd(7.25)", correct: false },
-  //     { text: "rnd(7.25)", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do you round the number 7.25, to the nearest integer?",
+    answers: [
+      { text: "Math.round(7.25)", correct: true },
+      { text: "round(7.25)", correct: false },
+      { text: "Math.rnd(7.25)", correct: false },
+      { text: "rnd(7.25)", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 17
   // {
   //   questions: "How do you find the number with the highest value of x and y?",
