@@ -417,21 +417,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 26
-  // {
-  //   questions: "JavaScript is a ___-side language",
-  //   answers: [
-  //     { text: "client", correct: false },
-  //     { text: "server", correct: false },
-  //     { text: "both", correct: true },
-  //     { text: "neither", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "JavaScript is a ___-side language",
+    answers: [
+      { text: "client", correct: false },
+      { text: "server", correct: false },
+      { text: "both", correct: true },
+      { text: "neither", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 27
   // {
   //   questions: "How do you find the minimum of x and y using JavaScript?",
