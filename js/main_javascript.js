@@ -236,24 +236,24 @@ const questionsJavascript = [
     ],
   },
   // // Question 15
-  // {
-  //   questions: "What is the correct way to write a JavaScript array?",
-  //   answers: [
-  //     { text: 'var colors = ["red", "green", "blue"]', correct: true },
-  //     { text: 'var colors = "red", "green", "blue"', correct: false },
-  //     {
-  //       text: 'var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")',
-  //       correct: false,
-  //     },
-  //     { text: "*This comment has more than one line*", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What is the correct way to write a JavaScript array?",
+    answers: [
+      { text: 'var colors = ["red", "green", "blue"]', correct: true },
+      { text: 'var colors = "red", "green", "blue"', correct: false },
+      {
+        text: 'var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")',
+        correct: false,
+      },
+      { text: "*This comment has more than one line*", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 16
   // {
   //   questions: "How do you round the number 7.25, to the nearest integer?",
