@@ -371,21 +371,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 23
-  // {
-  //   questions: "Which operator is used to assign a value to a variable?",
-  //   answers: [
-  //     { text: "=", correct: true },
-  //     { text: "*", correct: false },
-  //     { text: "-", correct: false },
-  //     { text: "X", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which operator is used to assign a value to a variable?",
+    answers: [
+      { text: "=", correct: true },
+      { text: "*", correct: false },
+      { text: "-", correct: false },
+      { text: "X", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 24
   // {
   //   questions: "What will the following code return: Boolean(10 > 9)?",
