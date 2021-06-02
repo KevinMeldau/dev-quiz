@@ -387,21 +387,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 24
-  // {
-  //   questions: "What will the following code return: Boolean(10 > 9)?",
-  //   answers: [
-  //     { text: "true", correct: true },
-  //     { text: "NaN", correct: false },
-  //     { text: "false", correct: false },
-  //     { text: "boolean", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "What will the following code return: Boolean(10 > 9)?",
+    answers: [
+      { text: "true", correct: true },
+      { text: "NaN", correct: false },
+      { text: "false", correct: false },
+      { text: "boolean", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 25
   // {
   //   questions: "JavaScript is case-sensitive?",
