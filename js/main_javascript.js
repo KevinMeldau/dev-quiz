@@ -339,21 +339,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 21
-  // {
-  //   questions: "Which event occurs when the user clicks on an HTML element?",
-  //   answers: [
-  //     { text: "onclick", correct: true },
-  //     { text: "onmouseclick", correct: false },
-  //     { text: "onchange", correct: false },
-  //     { text: "onmouseover", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "Which event occurs when the user clicks on an HTML element?",
+    answers: [
+      { text: "onclick", correct: true },
+      { text: "onmouseclick", correct: false },
+      { text: "onchange", correct: false },
+      { text: "onmouseover", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 22
   // {
   //   questions: "How do you declare a JavaScript variable?",
