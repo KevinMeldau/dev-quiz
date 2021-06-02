@@ -355,21 +355,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 22
-  // {
-  //   questions: "How do you declare a JavaScript variable?",
-  //   answers: [
-  //     { text: "variable carName;", correct: false },
-  //     { text: "v carName;", correct: false },
-  //     { text: "var carName;", correct: true },
-  //     { text: "store carName;", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How do you declare a JavaScript variable?",
+    answers: [
+      { text: "variable carName;", correct: false },
+      { text: "v carName;", correct: false },
+      { text: "var carName;", correct: true },
+      { text: "store carName;", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 23
   // {
   //   questions: "Which operator is used to assign a value to a variable?",
