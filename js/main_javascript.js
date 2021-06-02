@@ -309,19 +309,19 @@ const questionsJavascript = [
     ],
   },
   // // Question 19
-  // {
-  //   questions: "JavaScript is the same as Java",
-  //   answers: [
-  //     { text: "True", correct: false },
-  //     { text: "False", correct: true },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "JavaScript is the same as Java",
+    answers: [
+      { text: "True", correct: false },
+      { text: "False", correct: true },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 20
   // {
   //   questions: "How can you detect the client's browser name?",
