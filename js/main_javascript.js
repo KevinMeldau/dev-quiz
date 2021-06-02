@@ -220,21 +220,21 @@ const questionsJavascript = [
     ],
   },
   // // Question 14
-  // {
-  //   questions: "How to insert a comment that has more than one line?",
-  //   answers: [
-  //     { text: "//This comment has more than one line//", correct: false },
-  //     { text: "&lt;!--This comment has more than one line-->", correct: false },
-  //     { text: "/*This comment has more than one line*/", correct: true },
-  //     { text: "*This comment has more than one line*", correct: false },
-  //   ],
-  //   incorrect_explanation: "This is why it was wrong",
-  //   resources: [
-  //     { text: "W3 Schools - w3schools.com" },
-  //     { text: "Mozilla - developer.mozilla.org" },
-  //     { text: "CSS Tricks - css-tricks.com" },
-  //   ],
-  // },
+  {
+    questions: "How to insert a comment that has more than one line?",
+    answers: [
+      { text: "//This comment has more than one line//", correct: false },
+      { text: "&lt;!--This comment has more than one line-->", correct: false },
+      { text: "/*This comment has more than one line*/", correct: true },
+      { text: "*This comment has more than one line*", correct: false },
+    ],
+    incorrect_explanation: "This is why it was wrong",
+    resources: [
+      { text: "W3 Schools - w3schools.com" },
+      { text: "Mozilla - developer.mozilla.org" },
+      { text: "CSS Tricks - css-tricks.com" },
+    ],
+  },
   // // Question 15
   // {
   //   questions: "What is the correct way to write a JavaScript array?",
